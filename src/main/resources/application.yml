@@ -1,0 +1,1 @@
+spring.application.index: ${random.uuid} # this ensures that our applicationId is unique
