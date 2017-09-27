@@ -23,7 +23,7 @@ public class Application {
   }
 
   @Bean
-  public Jackson2ObjectMapperBuilderCustomizer addCustomBigDecimalDeserialization() {
+  public Jackson2ObjectMapperBuilderCustomizer getJackson2ObjectMapperBuilderCustomizer() {
     return new Jackson2ObjectMapperBuilderCustomizer() {
       @Override
       public void customize(Jackson2ObjectMapperBuilder jacksonObjectMapperBuilder) {
